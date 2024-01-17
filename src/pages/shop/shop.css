@@ -125,7 +125,7 @@ img {
 }
 
 @media screen and (min-width: 1080px) {
-  .shop {
+  .shopProducts {
     display: flex;
     flex-direction: column;
     align-items: center;
