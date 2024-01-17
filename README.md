@@ -13,6 +13,7 @@ Crafted and conceptualized the visuals (logo and coffee bags) featured on the we
 
 ## Getting started
 Clone the repo, and then run the below commands:
+
 `npm install`
 
 `npm start`
