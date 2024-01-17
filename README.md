@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## About
 Built a front end shopping cart using React.js
 
-Main points learned state management, context usage and routes.
+Main points learned state management, context usage, props and routes.
 
 Check out the live project here: 
 
