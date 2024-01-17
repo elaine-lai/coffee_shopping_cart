@@ -11,7 +11,6 @@ export const Shop = () => {
       </div>
       
       <div className='products'>
-        {" "}
         {PRODUCTS.map((product) => 
           <Product key={product.id} data={product}/> 
         )}
