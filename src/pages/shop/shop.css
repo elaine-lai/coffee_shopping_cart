@@ -1,0 +1,151 @@
+
+h3{
+  color: #776B5D;
+}
+
+.shop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shopTitle{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  text-align:left;
+}
+
+.product p{
+  margin: 0px;
+}
+
+.product {
+  padding: 10px;
+  text-align: center;
+}
+
+img{
+  width: 40%;
+}
+
+.link{
+  text-decoration: none;
+  color: #7e7367;
+}
+
+.link:hover{
+  color: #EBE3D5;
+}
+
+.theImage:hover{
+  transform: scale(1.05);
+}
+
+.addToCartButton{
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .products{
+    display: grid;
+    grid-row-gap: 60px;
+  }
+
+  img{
+    width: 90px;
+  }
+
+  .addToCartButton{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  h3{
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .products{
+    display: grid;
+    grid-row-gap: 60px;
+    grid-template-columns: repeat(2, 1fr);
+    /* background-color: rgb(201, 223, 201); */
+  }
+
+  img{
+    width: 39%;
+  }
+
+  .addToCartButton{
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h3{
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+
+  .products{
+    display: grid;
+    grid-gap: 120px;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: rgb(185, 185, 228); */
+  }
+
+  img{
+    width: 109px;
+  }
+
+  .addToCartButton{
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h3{
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .products{
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px;
+    background-color: white;
+    max-width: 1100px;
+    justify-content: center;
+  }
+
+  img{
+    width: 112px;
+  }
+
+  .addToCartButton{
+    font-size: 12px;
+  }
+
+  .shopTitle{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    max-width: 910px;
+  }
+}
