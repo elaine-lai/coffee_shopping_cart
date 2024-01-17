@@ -1,5 +1,6 @@
 # Beanstack Brews
-![bb_logo](https://github.com/elaine-lai/react_shopping_cart/assets/90720708/19f24cf3-23cb-48fc-bcb9-43d066404580)
+![bb_logo - small](https://github.com/elaine-lai/react_shopping_cart/assets/90720708/5fd962dd-3df9-4b59-8aa2-2b463bf6468e)
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
