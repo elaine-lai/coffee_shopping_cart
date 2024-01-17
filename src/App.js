@@ -1,3 +1,4 @@
+// https://www.youtube.com/watch?v=tEMrD9t85v4
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/navbar';

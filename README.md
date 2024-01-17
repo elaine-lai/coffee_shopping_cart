@@ -5,7 +5,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## About
-Learned to use react and built a front end shopping cart using React.js
+Built a front end shopping cart using React.js
+
+Main points learned state management, context usage and routes.
+
+Check out the live project here: 
 
 ## Getting started
 `npm install`
