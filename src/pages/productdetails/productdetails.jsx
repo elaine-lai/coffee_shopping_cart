@@ -19,7 +19,6 @@ export const ProductDetails = () => {
 
   return (
     <div className='productDetails'>
-      {/* <h3>Product Details</h3> */}
       <div className='productInfo'>
         <CartItem data={foundProduct}/>
       </div>

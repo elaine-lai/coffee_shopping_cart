@@ -49,4 +49,17 @@
     border-radius: 10px;
     font-size: 16px;
   }
+
+  .productImage{
+    width: 120px;
+  }
+  .cartItem{
+    font-size: 18px;
+  }
+  .subtotal{
+    font-size: 23px;
+  }
+  .quantity{
+    font-size: 15px;
+  }
 }
