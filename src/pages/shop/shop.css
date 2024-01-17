@@ -24,6 +24,10 @@ h3 {
   text-align: center;
 }
 
+.description{
+  margin-top: 10px;
+}
+
 img {
   width: 40%;
 }
@@ -76,7 +80,7 @@ img {
 
   .products {
     display: grid;
-    grid-gap: 120px;
+    grid-gap: 110px;
     grid-template-columns: repeat(2, 1fr);
   }
   img {
