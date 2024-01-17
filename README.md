@@ -9,6 +9,8 @@ Main points learned state management, context usage, props and routes.
 
 Check out the live project here: https://beanstackbrew-shoppingcart.vercel.app/
 
+Crafted and conceptualized the visuals (logo and coffee bags) featured on the website by leveraging an iPad and the Apple Pencil for a hands-on, artistic approach to design.
+
 ## Getting started
 `npm install`
 `npm start`
