@@ -36,13 +36,15 @@ export const ShopContextProvider = (props) => {
 
   const calculateTotal = () => {
     let totalAmount = 0
+    let totalQuantity = 0
     for (const item in cartItems){
+      totalQuantity += cartItems[item]
       if (cartItems[item] > 0){
         let itemInfo = PRODUCTS.find((product) => (product.id === Number(item)))
         totalAmount += cartItems[item] * itemInfo.price
       }
     }
-    return totalAmount
+    return {totalAmount, totalQuantity}
   }
 
   /** create a context */

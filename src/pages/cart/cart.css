@@ -18,6 +18,8 @@
   font-size: 20px;
   color: #776B5D;
   font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 5px;
 }
 
 .checkoutBtn{
@@ -32,4 +34,10 @@
 
 #goCheckout{
   margin-left: 10px;
+}
+
+.quantity{
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }

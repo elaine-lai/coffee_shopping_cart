@@ -8,7 +8,8 @@ import { Heart } from "phosphor-react";
 
 export const Cart = () => {
   const {cartItems, calculateTotal} = useContext(ShopContext)
-  const totalAmount = calculateTotal()
+  const { totalAmount, totalQuantity } = calculateTotal();
+  console.log(totalQuantity, totalAmount)
 
   const navigate = useNavigate()
 
@@ -32,6 +33,7 @@ export const Cart = () => {
         {totalAmount > 0 ?
         <div className="checkout">
           <p className="subtotal">SubTotal: ${roundedTotalAmount}</p>
+          <p className="quantity">Number of coffee bags: {totalQuantity} </p>
           <button className='checkoutBtn' onClick={() => navigate("../../")}>Continue Shopping</button>
           <button className='checkoutBtn' id="goCheckout">Checkout</button>
         </div>
