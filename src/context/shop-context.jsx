@@ -16,15 +16,20 @@ export const ShopContextProvider = (props) => {
 
   /** takes in ID of item we want to add to cart, takes prev value of itemid and increment 1  */
   const addToCart = (itemId) => {
+    // check to see that the number is greater than 0
     setCartItems((prev) => ({...prev, [itemId]: prev[itemId] + 1}))
   }
-
+  
   const removeFromCart = (itemId) => {
-    setCartItems((prev) => ({...prev, [itemId]: prev[itemId] - 1}))
+    setCartItems((prev) => {
+      if (prev[itemId] === 0){
+        return prev
+      }
+      return {...prev, [itemId]: prev[itemId] - 1}
+    })
   }
 
   const updateCartItemCount = (newAmount, itemId) =>{
-    // console.log("hello in update cart items")
     // console.log("new amount is", newAmount)
     setCartItems((prev) => ({...prev, [itemId]: newAmount}))
   }

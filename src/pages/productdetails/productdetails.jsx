@@ -11,11 +11,11 @@ export const ProductDetails = () => {
   
   const foundProduct = PRODUCTS.find(product => product.id === product_productid);
   
-  if (foundProduct) {
-    console.log('Found product:', foundProduct);
-  } else {
-    console.log('Product not found');
-  }
+  // if (foundProduct) {
+  //   console.log('Found product:', foundProduct);
+  // } else {
+  //   console.log('Product not found');
+  // }
 
   return (
     <div className='productDetails'>

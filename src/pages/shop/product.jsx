@@ -5,13 +5,11 @@ import { Link } from 'react-router-dom'
 export const Product = (props) => {
 
     const {id, productName, price, productImage} = props.data;
-    console.log(props.data)
     const { addToCart, cartItems} = useContext(ShopContext)
 
     const cartItemAmount = cartItems[id]
 
     const priceTwoDecimals = price.toFixed(2);
-    // console.log(props.data)
     return (
       <div>
         <Link className='link' to={{ pathname: `/product-details/${id}` }}>
