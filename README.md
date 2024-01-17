@@ -9,7 +9,7 @@ Built a front end shopping cart using React.js
 
 Main points learned state management, context usage, props and routes.
 
-Check out the live project here: 
+Check out the live project here: https://beanstackbrew-shoppingcart.vercel.app/
 
 ## Getting started
 `npm install`
