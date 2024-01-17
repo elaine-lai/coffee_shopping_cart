@@ -1,9 +1,9 @@
 # Beanstack Brews
-Front end shopping cart using React.js. The shopping cart sells coffee beans and allows user to add beans to their cart, keeping track of the total amount, total number of bags, and uses state management.
+A React.js-based front-end shopping cart designed for the sale of coffee beans. Users can seamlessly add coffee beans to their virtual cart, while the application keeps track of the total cost, the overall quantity of bags selected, and employs efficient state management for a smooth shopping experience.
+![bb_logo - small](https://github.com/elaine-lai/react_shopping_cart/assets/90720708/53e92826-c2db-44fe-8554-d0957b8f98f0)
 
 ## About
-Built a front end shopping cart using React.js
-
+A React.js-based front-end shopping cart designed for the sale of coffee beans.
 Main points learned state management, context usage, props and routes.
 
 Check out the live project here: https://beanstackbrew-shoppingcart.vercel.app/
@@ -14,6 +14,3 @@ Check out the live project here: https://beanstackbrew-shoppingcart.vercel.app/
 
 ### Notes
 `yarn add phosphor-react react-router-dom`
-
-![bb_logo - small](https://github.com/elaine-lai/react_shopping_cart/assets/90720708/53e92826-c2db-44fe-8554-d0957b8f98f0)
-
