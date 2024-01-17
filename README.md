@@ -1,5 +1,6 @@
 # Beanstack Brews
 ![bb_logo - small](https://github.com/elaine-lai/react_shopping_cart/assets/90720708/5fd962dd-3df9-4b59-8aa2-2b463bf6468e)
+![bb_logo - small](https://github.com/elaine-lai/react_shopping_cart/assets/90720708/53e92826-c2db-44fe-8554-d0957b8f98f0)
 
 
 
