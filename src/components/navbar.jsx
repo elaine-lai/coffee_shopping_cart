@@ -19,7 +19,7 @@ export const Navbar = () => {
       <div className="links">
         <Link to='/' className={`shop ${location.pathname === '/' ? 'active' : ''}`}>Shop</Link>
         <Link to='/cart' className={`cart ${location.pathname === '/cart' ? 'active' : ''}`}>
-          <ShoppingCart size={22}/></Link>
+          <ShoppingCart className="shoppingCartIcon"/></Link>
       </div>
     </div>
   )

@@ -32,6 +32,11 @@ body {
   text-decoration: none;
 }
 
+.shoppingCartIcon{
+  width: 22px;
+  height: 22px;
+}
+
 .shop,
 .cart {
   color: #756858;
@@ -76,5 +81,32 @@ body {
   }
   .links {
     margin-right: 23px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logoTitle {
+    font-size: 30px;
+  }
+  .logoImg {
+    width: 90px;
+  }
+  .links {
+    font-size: 20px;
+  }
+  .shop{
+    margin-top: 5px;
+  }
+  
+  .shoppingCartIcon{
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .shoppingCartIcon{
+    width: 30px;
+    height: 30px;
   }
 }
