@@ -4,76 +4,76 @@ body {
   box-sizing: border-box;
 }
 
-.navbar{
+.navbar {
   width: 100%;
   height: 70px;
-  display:flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   margin-left: 20px;
 }
 
-.links{
+.links {
   display: flex;
   flex-direction: row;
   margin-right: 20px;
 }
 
-.links .shop{
+.links .shop {
   margin-right: 10px;
 }
 
-.shop{
+.shop {
   text-decoration: none;
 }
 
-.shop, .cart{
-  color: #756858
+.shop,
+.cart {
+  color: #756858;
 }
 
-.links .shop:hover, .links .cart:hover{
-  color: #B0A695;
+.links .shop:hover,
+.links .cart:hover {
+  color: #b0a695;
   transform: scale(1.1);
 }
 
-.shop.active{
-  color: #B0A695;
+.shop.active {
+  color: #b0a695;
 }
 
-.cart.active{
-  color: #B0A695;
+.cart.active {
+  color: #b0a695;
 }
-
 
 @media screen and (max-width: 480px) {
-  .logoTitle{
+  .logoTitle {
     display: none;
   }
-  .logoImg{
+  .logoImg {
     margin-top: 10px;
     width: 70px;
   }
 }
 
-
 @media screen and (min-width: 481px) {
-  .logoTitle{
+  .logoTitle {
     font-size: 25px;
-    color: #B0A695;
+    color: #b0a695;
   }
-  .logoImg{
+  .logoImg {
     margin-top: 0px;
     margin-left: 10px;
     width: 75px;
   }
-  .navbar{
+  .navbar {
     height: 100px;
   }
-  .links{
+  .links {
     margin-right: 23px;
   }
 }

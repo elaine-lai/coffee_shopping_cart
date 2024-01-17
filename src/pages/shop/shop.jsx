@@ -5,7 +5,7 @@ import "./shop.css"
 
 export const Shop = () => {
   return (
-    <div className="shop">
+    <div className="shopProducts">
       <div className="shopTitle">
         <h3>Shop Coffee</h3>
       </div>
