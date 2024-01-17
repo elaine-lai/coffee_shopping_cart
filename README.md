@@ -13,6 +13,7 @@ Crafted and conceptualized the visuals (logo and coffee bags) featured on the we
 
 ## Getting started
 `npm install`
+
 `npm start`
 
 ### Notes
