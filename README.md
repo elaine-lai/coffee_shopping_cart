@@ -18,5 +18,5 @@ Clone the repo, and then run the below commands:
 
 `npm start`
 
-### Notes
+### Packages used
 `yarn add phosphor-react react-router-dom`
