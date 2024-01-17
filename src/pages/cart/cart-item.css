@@ -1,0 +1,37 @@
+.cartItem{
+  padding-bottom: 35px;
+  align-items: center;
+}
+
+.productImage{
+  width: 80px;
+}
+
+.prodDescrip{
+  max-width: 200px;
+  font-size: 12px;
+  text-align: left;
+}
+
+@media screen and (min-width: 481px) {
+  .productImage{
+    width: 90px;
+  }
+  .prodDescrip{
+    max-width: 400px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .productImage{
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .productImage{
+    width: 100px;
+  }
+}

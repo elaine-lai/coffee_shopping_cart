@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
+.footer {
+  color: #B0A695;
+  text-align: center;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 60px;
+  font-size: 11px;
+}
+
+.logoFooter{
+  width: 23px;
+}

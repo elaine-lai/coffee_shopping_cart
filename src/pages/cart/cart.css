@@ -1,0 +1,35 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.cartItem{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.subtotal{
+  font-size: 20px;
+  color: #776B5D;
+  font-weight: bold;
+}
+
+.checkoutBtn{
+  font-family: 'Fira Sans', sans-serif;
+  border-radius: 10px;
+}
+
+.checkoutBtn:hover{
+  color: #B0A695;
+  cursor: pointer;
+}
+
+#goCheckout{
+  margin-left: 10px;
+}
