@@ -66,10 +66,14 @@ body {
     color: #B0A695;
   }
   .logoImg{
-    margin-top: 15px;
+    margin-top: 0px;
+    margin-left: 10px;
     width: 75px;
   }
   .navbar{
     height: 100px;
+  }
+  .links{
+    margin-right: 23px;
   }
 }

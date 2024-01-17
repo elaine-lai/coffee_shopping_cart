@@ -4,6 +4,7 @@ import { ShopContext } from "../../context/shop-context"
 import { CartItem } from "./cart-item";
 import "./cart.css"
 import { useNavigate } from 'react-router-dom'
+import { Heart } from "phosphor-react";
 
 export const Cart = () => {
   const {cartItems, calculateTotal} = useContext(ShopContext)
@@ -24,6 +25,7 @@ export const Cart = () => {
             if(cartItems[product.id] !== 0){
               return <CartItem data={product}/>
             }
+            return null
           })}
         </div>
   
@@ -35,7 +37,8 @@ export const Cart = () => {
         </div>
       :  
       <div>
-        <h3>Give your cart some love! </h3>
+        <h3>Give your cart some love! <Heart color="#EBE3D5" weight="fill" style={{ verticalAlign: 'bottom' }} size={20} /></h3>
+        
         <button className='checkoutBtn'onClick={() => navigate("../../")}>Shop for beans</button>
       </div>}
       </div>

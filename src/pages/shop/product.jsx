@@ -1,10 +1,8 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../../context/shop-context"
-import { useNavigate, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const Product = (props) => {
-
-    const navigate = useNavigate()
 
     const {id, productName, price, productImage} = props.data;
     console.log(props.data)

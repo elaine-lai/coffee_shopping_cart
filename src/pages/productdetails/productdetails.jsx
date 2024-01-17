@@ -1,12 +1,10 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { useParams } from 'react-router-dom';
-import { ShopContext } from "../../context/shop-context"
 import { PRODUCTS } from "../../products"
 import { CartItem } from "../cart/cart-item";
 import './productdetails.css'
 
 export const ProductDetails = () => {
-  const {cartItems} = useContext(ShopContext)
   const params = useParams();
   const product_productid = Number(params.id);
   

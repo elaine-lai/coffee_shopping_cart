@@ -5,7 +5,7 @@ import { Footer } from './components/footer';
 import { Shop } from './pages/shop/shop';
 import { Cart } from './pages/cart/cart';
 import { ProductDetails } from './pages/productdetails/productdetails';
-import { ShopContext, ShopContextProvider } from "./context/shop-context"
+import { ShopContextProvider } from "./context/shop-context"
 
 function App() {
   return (
