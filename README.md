@@ -12,6 +12,7 @@ Check out the live project here: https://beanstackbrew-shoppingcart.vercel.app/
 Crafted and conceptualized the visuals (logo and coffee bags) featured on the website by leveraging an iPad and the Apple Pencil for a hands-on, artistic approach to design.
 
 ## Getting started
+Clone the repo, and then run the below commands:
 `npm install`
 
 `npm start`
