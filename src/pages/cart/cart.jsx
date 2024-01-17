@@ -9,7 +9,6 @@ import { Heart } from "phosphor-react";
 export const Cart = () => {
   const {cartItems, calculateTotal} = useContext(ShopContext)
   const { totalAmount, totalQuantity } = calculateTotal();
-  console.log(totalQuantity, totalAmount)
 
   const navigate = useNavigate()
 
