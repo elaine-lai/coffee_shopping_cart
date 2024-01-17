@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Beanstack Brews
+![bb_logo](https://github.com/elaine-lai/react_shopping_cart/assets/90720708/19f24cf3-23cb-48fc-bcb9-43d066404580)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
